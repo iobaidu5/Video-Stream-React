@@ -1,3 +1,4 @@
+import history from '../history';
 import streams from '../apis/streams';
 import {
         SIGN_IN, 
@@ -26,6 +27,7 @@ export const createStream = formValues => async (dispatch, getState) => {
     const { userId } = getState().auth;
     const response = streams.post('/streams', {...formValues, userId});
     dispatch({type: CREATE_STREAM, payload: response.data});
+    history.push('/');    // Programmetic Navigation: Auto Navigate to page
 };
 
 export const fetchStreams = () => async dispatch => {
