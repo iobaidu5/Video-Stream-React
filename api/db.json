@@ -1,0 +1,26 @@
+{
+  "streams": [
+    {
+      "title": "Streams",
+      "description": "This is a great stream",
+      "id": 1
+    },
+    {
+      "title": "New Stream",
+      "description": "Me At zoo",
+      "id": 2
+    },
+    {
+      "title": "Song",
+      "description": "My new SOng",
+      "userId": "102068430019262975549",
+      "id": 3
+    },
+    {
+      "title": "Programmatic naviagtion",
+      "description": "Auto Back To Page",
+      "userId": "102068430019262975549",
+      "id": 4
+    }
+  ]
+}
